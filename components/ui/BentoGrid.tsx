@@ -84,7 +84,7 @@ export const BentoGridItem = ({
   const handleDownload = () => {
     if (downloaded) return;    
     const link = document.createElement('a');
-    link.href = '/cv.pdf'; 
+    link.href = 'cv.pdf'; 
     link.download = 'CV_Cristian_Martinez.pdf'; 
     document.body.appendChild(link);
     link.click();

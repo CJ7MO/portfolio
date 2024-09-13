@@ -76,7 +76,7 @@ export const navItems = [
       title: "Accidents of Medellín Web App",
       des: "A Python Streamlit app that analyzes and visualizes Medellín traffic accidents (2014-2021) with maps, charts, and top locations by severity, using data from MEData.gov.co",
       img: "med.png",
-      iconLists: ["python.svg", "streamlit.svg", "pandas.svg", "ploty.svg", "github.svg"],
+      iconLists: ["Python.svg", "Streamlit.svg", "Pandas.svg", "Ploty.svg", "GitHub.svg"],
       link: "https://accidentesmedellin.streamlit.app/",
     },
     {
@@ -85,7 +85,7 @@ export const navItems = [
       des: "An interactive website using machine learning to classify kidney cancer images.",
       img: "kdcls.png",
       imgClassName: "rotated-image",
-      iconLists: ["python.svg", "tf.svg", "mlflow.svg", "dvc.svg", "aws.svg"],
+      iconLists: ["Python.svg", "tf.svg", "mlflow.svg", "dvc.svg", "aws.svg"],
       link: "https://github.com/CJ7MO/Kidney-Disease-Classification-Deep-Learning-Project",
     },
     {
@@ -93,7 +93,7 @@ export const navItems = [
       title: "Computer Vision Project Football Analysis",
       des: "A project using YOLO to detect and track players, cluster teams with Kmeans, and measure ball possession, movement, speed, and distance in football videos.",
       img: "scs.png",
-      iconLists: ["python.svg", "yolo.svg", "opencv.svg","scikit-learn.svg", "matplotlib.svg"],
+      iconLists: ["Python.svg", "yolo.svg", "opencv.svg","scikit-learn.svg", "matplotlib.svg"],
       link: "https://github.com/CJ7MO/Football-Analysis-Project",
     },
     {
@@ -101,7 +101,7 @@ export const navItems = [
       title: "Text Summarizer API",
       des: "A Flask API for text summarization using Transformers and Natural Language Tool Kit",
       img: "summary.png",
-      iconLists: ["python.svg", "hf.svg", "tf.svg", "FastAPI.svg", "aws.svg"], 
+      iconLists: ["Python.svg", "hf.svg", "tf.svg", "FastAPI.svg", "aws.svg"], 
       link: "https://github.com/CJ7MO/Text-Summarization-NLP-Project",
     },
   ];
