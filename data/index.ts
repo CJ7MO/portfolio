@@ -14,7 +14,7 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/portfolio/b1.svg",
+      img: "b1.svg",
       spareImg: "",
     },
     {
@@ -24,7 +24,7 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 rounded-lg",
       titleClassName: "justify-start",
-      img: "/grid.svg",
+      img: "grid.svg",
       spareImg: "",
     },
     {
@@ -34,7 +34,7 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 rounded-lg",
       titleClassName: "justify-center",
-      img: "/grid.svg",
+      img: "grid.svg",
       spareImg: "",
     },
     {
@@ -44,8 +44,8 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
+      img: "grid.svg",
+      spareImg: "b4.svg",
     },
   
     {
@@ -55,8 +55,8 @@ export const navItems = [
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 rounded-lg",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.png",
-      spareImg: "/grid.svg",
+      img: "b5.png",
+      spareImg: "grid.svg",
     },
     {
       id: 6,
@@ -75,33 +75,33 @@ export const navItems = [
       id: 1,
       title: "Accidents of Medellín Web App",
       des: "A Python Streamlit app that analyzes and visualizes Medellín traffic accidents (2014-2021) with maps, charts, and top locations by severity, using data from MEData.gov.co",
-      img: "/med.png",
-      iconLists: ["/python.svg", "/streamlit.svg", "/pandas.svg", "/ploty.svg", "github.svg"],
+      img: "med.png",
+      iconLists: ["python.svg", "streamlit.svg", "pandas.svg", "ploty.svg", "github.svg"],
       link: "https://accidentesmedellin.streamlit.app/",
     },
     {
       id: 2,
       title: "Kidney Disease Classification Web App",
       des: "An interactive website using machine learning to classify kidney cancer images.",
-      img: "/kdcls.png",
+      img: "kdcls.png",
       imgClassName: "rotated-image",
-      iconLists: ["/python.svg", "/tf.svg", "/mlflow.svg", "/dvc.svg", "/aws.svg"],
+      iconLists: ["python.svg", "tf.svg", "mlflow.svg", "dvc.svg", "aws.svg"],
       link: "https://github.com/CJ7MO/Kidney-Disease-Classification-Deep-Learning-Project",
     },
     {
       id: 3,
       title: "Computer Vision Project Football Analysis",
       des: "A project using YOLO to detect and track players, cluster teams with Kmeans, and measure ball possession, movement, speed, and distance in football videos.",
-      img: "/scs.png",
-      iconLists: ["/python.svg", "/yolo.svg", "/opencv.svg","scikit-learn.svg", "/matplotlib.svg"],
+      img: "scs.png",
+      iconLists: ["python.svg", "yolo.svg", "opencv.svg","scikit-learn.svg", "matplotlib.svg"],
       link: "https://github.com/CJ7MO/Football-Analysis-Project",
     },
     {
       id: 4,
       title: "Text Summarizer API",
       des: "A Flask API for text summarization using Transformers and Natural Language Tool Kit",
-      img: "/summary.png",
-      iconLists: ["/python.svg", "/hf.svg", "/tf.svg", "/FastAPI.svg", "/aws.svg"], 
+      img: "summary.png",
+      iconLists: ["python.svg", "hf.svg", "tf.svg", "FastAPI.svg", "aws.svg"], 
       link: "https://github.com/CJ7MO/Text-Summarization-NLP-Project",
     },
   ];
@@ -150,45 +150,45 @@ export const navItems = [
       title: "Data Analytics Engineer Intern",
       desc: "Performed data analysis, cleaning, and transformation on large datasets using Python and SQL, optimizing data workflows for reporting kpi's.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "exp1.svg",
     },
     {
       id: 2,
       title: "ETL & Backend Developer",
       desc: "Designed and maintained data pipelines with Python, Java, and AWS, ensuring efficient data processing and integration.",
       className: "md:col-span-2", 
-      thumbnail: "/exp2.svg",
+      thumbnail: "exp2.svg",
     },
     {
       id: 3,
       title: "Freelance Data Solutions",
       desc: "Business Intelligence projects leveraging Python, SQL, and Power BI for data-driven insights",
       className: "md:col-span-2", 
-      thumbnail: "/exp3.svg",
+      thumbnail: "exp3.svg",
     },
     {
       id: 4,
       title: "Data Analytics Consultant",
       desc: "Consulting services focused on data-driven decision-making to optimize business outcomes.",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "exp4.svg",
     },
   ];
   
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: "git.svg",
       href:"https://github.com/CJ7MO"
     },
     {
       id: 2,
-      img: "/x.svg",
+      img: "x.svg",
       href:"https://x.com/cj7mo_ds"
     },
     {
       id: 3,
-      img: "/link.svg",
+      img: "link.svg",
       href: "https://www.linkedin.com/in/cj7mo/"
     },
   ];
