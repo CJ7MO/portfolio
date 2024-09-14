@@ -28,7 +28,7 @@ const Footer = () => {
           Copyright © 2024 Cristian Martínez
         </p>
 
-        <div className="flex items-center md:gap-5 gap-6 md:mt-10">
+        <div className="flex items-center md:gap-5 gap-6 md:mt-25">
           {socialMedia.map((info) => (
             <div
               key={info.id}
