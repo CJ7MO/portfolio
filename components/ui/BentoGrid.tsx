@@ -191,37 +191,35 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative flex space-x-2 md:flex-row">
-      
+            <div className="mt-5 relative flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
             {showCopyConfetti && (
               <div className="absolute -bottom-5 right-0">
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
             )}
-      
+          
             <MagicButton
               title={copied ? "Email is Copied!" : "Copy my email address"}
               icon={<IoCopyOutline />}
               position="left"
               handleClick={handleCopy}
-              otherClasses="w-full md:w-auto !bg-[#161A31] text-sm md:text-base"
+              otherClasses="!bg-[#161A31]"
             />
-      
+          
             {showDownloadConfetti && (
               <div className="absolute -bottom-5 right-0">
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
             )}
-      
+          
             <MagicButton
               title={downloaded ? "Downloaded!" : "Download my CV"}
               icon={<IoDownload />}
               position="left"
               handleClick={handleDownload}
-              otherClasses="w-full md:w-auto !bg-[#161A31] text-sm md:text-base"
-              />
-
-            </div>
+              otherClasses="!bg-[#161A31]"
+            />
+          </div>
           )}
         </div>
       </div>
