@@ -1,5 +1,4 @@
 export const navItems = [
-    { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
@@ -53,7 +52,7 @@ export const navItems = [
       title: "Working on Data Science & Machine Learning projects",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 rounded-lg",
+      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 rounded-lg sm:w-48 xs:w-32",
       titleClassName: "justify-center md:justify-start lg:justify-center",
       img: "b5.png",
       spareImg: "grid.svg",

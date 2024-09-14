@@ -93,3 +93,23 @@
   border-radius: 10px;
   transform: rotate(1.5deg);
 }
+
+.responsive-img {
+  width: 60%; /* Tamaño por defecto */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 0.5rem; /* Rounded-lg */
+}
+
+@media (max-width: 768px) { /* Para iPhone 14 y otros dispositivos móviles */
+  .responsive-img {
+    width: 48%; /* Tamaño reducido en dispositivos móviles */
+  }
+}
+
+@media (max-width: 480px) { /* Para dispositivos más pequeños */
+  .responsive-img {
+    width: 32%; /* Tamaño aún más reducido */
+  }
+}
