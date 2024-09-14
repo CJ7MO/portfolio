@@ -204,7 +204,7 @@ export const BentoGridItem = ({
               icon={<IoCopyOutline />}
               position="left"
               handleClick={handleCopy}
-              otherClasses="!bg-[#161A31]"
+              otherClasses="w-full md:w-auto !bg-[#161A31] text-sm md:text-base"
             />
       
             {showDownloadConfetti && (
@@ -218,7 +218,7 @@ export const BentoGridItem = ({
               icon={<IoDownload />}
               position="left"
               handleClick={handleDownload}
-                otherClasses="!bg-[#161A31]"
+              otherClasses="w-full md:w-auto !bg-[#161A31] text-sm md:text-base"
               />
 
             </div>
