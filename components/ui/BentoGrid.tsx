@@ -191,7 +191,7 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative flex space-x-2">
+            <div className="mt-5 relative flex space-x-2 ">
       
             {showCopyConfetti && (
               <div className="absolute -bottom-5 right-0">
@@ -200,7 +200,7 @@ export const BentoGridItem = ({
             )}
       
             <MagicButton
-              title={copied ? "Email is Copied!" : "Copy my email address"}
+              title={copied ? "Email is Copied!" : "Copy my Email"}
               icon={<IoCopyOutline />}
               position="left"
               handleClick={handleCopy}
