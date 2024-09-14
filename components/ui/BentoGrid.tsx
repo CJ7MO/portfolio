@@ -127,8 +127,8 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
-              //width={220}
-              className="responsive-img"
+              //   width={220}
+              className="object-cover object-center w-full h-full"
             />
           )}
         </div>
@@ -198,29 +198,30 @@ export const BentoGridItem = ({
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
             )}
-          
+      
             <MagicButton
-              title={copied ? "Email is Copied!" : "Copy my email address"}
+              title={copied ? "Email is Copied!" : "Copy my mail"}
               icon={<IoCopyOutline />}
               position="left"
               handleClick={handleCopy}
               otherClasses="!bg-[#161A31]"
             />
-          
+      
             {showDownloadConfetti && (
               <div className="absolute -bottom-5 right-0">
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
             )}
-          
+      
             <MagicButton
               title={downloaded ? "Downloaded!" : "Download my CV"}
               icon={<IoDownload />}
               position="left"
               handleClick={handleDownload}
-              otherClasses="!bg-[#161A31]"
-            />
-          </div>
+                otherClasses="!bg-[#161A31]"
+              />
+
+            </div>
           )}
         </div>
       </div>
