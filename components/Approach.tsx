@@ -43,7 +43,7 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Building on the approved plan, I translate the design into functional code, meticulously developing your data solution from the ground up. This involves creating robust data pipelines, implementing advanced analytics, and ensuring seamless integration. Throughout this phase, I focus on delivering high-quality, efficient solutions that meet your project requirements and exceed expectations."
+          des="I develop your data solution by translating the approved design into functional code, creating robust data pipelines, implementing advanced analytics, and ensuring seamless integration. My focus is on delivering high-quality, efficient solutions that meet project requirements and exceed expectations."
         >
           <CanvasRevealEffect
             animationSpeed={3}
