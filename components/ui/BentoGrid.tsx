@@ -191,7 +191,7 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative flex flex-col sm:flex-row sm:space-y-2">
+            <div className="mt-5 relative flex flex-col sm:flex-row sm:space-x-2">
       
             {showCopyConfetti && (
               <div className="absolute -bottom-5 right-0">
@@ -218,7 +218,7 @@ export const BentoGridItem = ({
               icon={<IoDownload />}
               position="left"
               handleClick={handleDownload}
-                otherClasses="!bg-[#161A31]"
+                otherClasses="!bg-[#161A31] top-gap-3"
               />
 
             </div>
