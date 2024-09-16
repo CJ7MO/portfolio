@@ -191,7 +191,7 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative flex space-x-2">
+            <div className="mt-5 relative flex space-x-2 sm:flex-row sm:space-x-2 sm:space-y-0">
       
             {showCopyConfetti && (
               <div className="absolute -bottom-5 right-0">
