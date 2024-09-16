@@ -77,7 +77,7 @@ export const BentoGridItem = ({
     const text = "cj7mo.ds@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
-    setShowCopyConfetti(true)
+    setShowCopyConfetti(true);
     setTimeout(() => { setShowCopyConfetti(false) }, 2000);
   };
 
@@ -89,8 +89,8 @@ export const BentoGridItem = ({
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+    setDownloaded(true);
     setShowDownloadConfetti(true);
-    setDownloaded(true)
     setTimeout(() => { setShowDownloadConfetti(false), 2000});
   };
   return (
@@ -191,7 +191,7 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative flex flex-col sm:flex-row sm:space-x-2">
+            <div className="mt-5 relative flex flex-col sm:flex-row sm:space-x-2 sm:space-y-2">
       
             {showCopyConfetti && (
               <div className="absolute -bottom-5 right-0">
@@ -200,7 +200,7 @@ export const BentoGridItem = ({
             )}
       
             <MagicButton
-              title={copied ? "Email is Copied!" : "Copy my mail"}
+              title={copied ? "Email is Copied!" : "Copy my Email"}
               icon={<IoCopyOutline />}
               position="left"
               handleClick={handleCopy}
@@ -218,7 +218,7 @@ export const BentoGridItem = ({
               icon={<IoDownload />}
               position="left"
               handleClick={handleDownload}
-                otherClasses="!bg-[#161A31] top-gap-3"
+                otherClasses="!bg-[#161A31]"
               />
 
             </div>
