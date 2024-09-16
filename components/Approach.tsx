@@ -26,7 +26,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we finalize the plan, I focus on developing the solution, from initial design to final implementation. I'll keep you informed throughout the process, ensuring that every detail aligns with your project goals."
+          des="Once the plan is finalized, I will focus on developing the solution, from initial design to final implementation. I will keep you informed throughout the process, making sure that every detail is aligned with your project goals and achievements."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -43,7 +43,7 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="I develop your data solution by translating the approved design into functional code, creating robust data pipelines, implementing advanced analytics, and ensuring seamless integration. My focus is on delivering high-quality, efficient solutions that meet project requirements and exceed expectations."
+          des="I develop data solutions by translating approved design into functional code, creating robust data pipelines, implementing advanced analytics My focus is on delivering efficient, high quality solutions that meet project requirements."
         >
           <CanvasRevealEffect
             animationSpeed={3}
