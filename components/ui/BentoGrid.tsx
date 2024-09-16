@@ -89,8 +89,8 @@ export const BentoGridItem = ({
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    setDownloaded(true)
     setShowDownloadConfetti(true);
+    setDownloaded(true)
     setTimeout(() => { setShowDownloadConfetti(false), 2000});
   };
   return (
